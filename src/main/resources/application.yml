@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/trace}
+    username: ${DATABASE_USER:trace}
+    password: ${DATABASE_PASSWORD:trace}
+  flyway:
+    enabled: true
