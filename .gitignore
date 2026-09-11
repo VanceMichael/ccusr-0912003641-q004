@@ -6,6 +6,7 @@ node_modules/
 venv/
 dist/
 build/
+target/
 coverage/
 __pycache__/
 *.py[cod]
